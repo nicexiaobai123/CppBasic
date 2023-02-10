@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="C++应用">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="STL标准库">
+      <UniqueIdentifier>{e00b0103-203f-4e84-9e70-ee60bfcd5df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="高效C++编程">
+      <UniqueIdentifier>{4198c280-2e6f-4103-81d2-1aaa6f7d0bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="智能指针">
+      <UniqueIdentifier>{c73997ec-1b96-47bb-b4ce-bd5e2c9430fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="绑定器和函数对象">
+      <UniqueIdentifier>{e8aa80f8-ea98-4be2-bf02-2fa026a13848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="多线程编程">
+      <UniqueIdentifier>{89e05e2f-a715-455b-8679-05af5e6bee3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="设计模式">
+      <UniqueIdentifier>{44fe3743-06eb-48c7-a16d-d3cd16484c6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="15Vetor实现迭代器失效操作.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="00虚拟地址空间划分.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="01形参带默认值.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="02常量的用法.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="03构造和析构SeqStack.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="04循环队列.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="05常方法.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="06指向类成员的指针.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="07模板分文件编写.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="07模板分文件编写_模板定义.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="08STL中vector实现.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="09allocator重要性.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="10Complex类编写.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="11模拟string类.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="12为string容器添加迭代器.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="13为vectoe容器添加迭代器.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="14容器迭代器失效问题及解决办法.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="16深入理解new-delete.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="17new-delete实现对象池.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="18派生类构造过程.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="19派生类的隐藏关系.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="20动态绑定与RTTI.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="21多态.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="22多态常见问题.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="23虚继承与虚基类.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="24解决菱形继承问题.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="25四种类型转换.cpp">
+      <Filter>C++应用</Filter>
+    </ClCompile>
+    <ClCompile Include="26使用vector等等.cpp">
+      <Filter>STL标准库</Filter>
+    </ClCompile>
+    <ClCompile Include="27无序关联容器.cpp">
+      <Filter>STL标准库</Filter>
+    </ClCompile>
+    <ClCompile Include="28有序关联容器.cpp">
+      <Filter>STL标准库</Filter>
+    </ClCompile>
+    <ClCompile Include="29迭代器.cpp">
+      <Filter>STL标准库</Filter>
+    </ClCompile>
+    <ClCompile Include="30仿函数.cpp">
+      <Filter>STL标准库</Filter>
+    </ClCompile>
+    <ClCompile Include="31泛型算法.cpp">
+      <Filter>STL标准库</Filter>
+    </ClCompile>
+    <ClCompile Include="32对象调用的方法.cpp">
+      <Filter>高效C++编程</Filter>
+    </ClCompile>
+    <ClCompile Include="33需要优化的函数.cpp">
+      <Filter>高效C++编程</Filter>
+    </ClCompile>
+    <ClCompile Include="34优化的函数.cpp">
+      <Filter>高效C++编程</Filter>
+    </ClCompile>
+    <ClCompile Include="35优化的MyString.cpp">
+      <Filter>高效C++编程</Filter>
+    </ClCompile>
+    <ClCompile Include="36MyString完美加法重载.cpp">
+      <Filter>高效C++编程</Filter>
+    </ClCompile>
+    <ClCompile Include="37move与forward完美转发.cpp">
+      <Filter>高效C++编程</Filter>
+    </ClCompile>
+    <ClCompile Include="38智能指针初识.cpp">
+      <Filter>智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="39不带引用计数的智能指针.cpp">
+      <Filter>智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="40自己实现带引用计数的智能指针.cpp">
+      <Filter>智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="41交叉引用问题.cpp">
+      <Filter>智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="42解决交叉引用问题.cpp">
+      <Filter>智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="43多线程访问共享对象问题.cpp">
+      <Filter>智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="44自定义删除器.cpp">
+      <Filter>智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="45bind1st与bind2nd.cpp">
+      <Filter>绑定器和函数对象</Filter>
+    </ClCompile>
+    <ClCompile Include="46自己实现bind1st和bind2nd.cpp">
+      <Filter>绑定器和函数对象</Filter>
+    </ClCompile>
+    <ClCompile Include="47function函数对象应用.cpp">
+      <Filter>绑定器和函数对象</Filter>
+    </ClCompile>
+    <ClCompile Include="48完全特例化与部分特例化.cpp">
+      <Filter>绑定器和函数对象</Filter>
+    </ClCompile>
+    <ClCompile Include="49模板的实参推演.cpp">
+      <Filter>绑定器和函数对象</Filter>
+    </ClCompile>
+    <ClCompile Include="50function的实现原理.cpp">
+      <Filter>绑定器和函数对象</Filter>
+    </ClCompile>
+    <ClCompile Include="51bind实验.cpp">
+      <Filter>绑定器和函数对象</Filter>
+    </ClCompile>
+    <ClCompile Include="52bind和function实现线程池.cpp">
+      <Filter>绑定器和函数对象</Filter>
+    </ClCompile>
+    <ClCompile Include="53lambda表达式1.cpp">
+      <Filter>绑定器和函数对象</Filter>
+    </ClCompile>
+    <ClCompile Include="54lambda表达式2.cpp">
+      <Filter>绑定器和函数对象</Filter>
+    </ClCompile>
+    <ClCompile Include="55创建多线程编程.cpp">
+      <Filter>多线程编程</Filter>
+    </ClCompile>
+    <ClCompile Include="56模拟车站窗口卖票.cpp">
+      <Filter>多线程编程</Filter>
+    </ClCompile>
+    <ClCompile Include="57生产者消费者模型.cpp">
+      <Filter>多线程编程</Filter>
+    </ClCompile>
+    <ClCompile Include="58CAS原子化操作.cpp">
+      <Filter>多线程编程</Filter>
+    </ClCompile>
+    <ClCompile Include="59单例设计模式.cpp">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="60工厂模式.cpp">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="61代理模式.cpp">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="62装饰器模式.cpp">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="63适配器模式.cpp">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+    <ClCompile Include="64观察者模式.cpp">
+      <Filter>设计模式</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
